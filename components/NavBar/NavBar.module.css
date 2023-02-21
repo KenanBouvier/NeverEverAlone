@@ -1,0 +1,28 @@
+.navMenu {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: right;
+}
+
+.navMenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 250;
+  display: inline-block;
+  padding-right: 25px;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: red;
+}
+
+@media (max-width: 710px) {
+  .navMenu a {
+    display: block;
+  }
+}
